@@ -26,8 +26,7 @@ sudo dpkg -r tb-fan-control
 
 If package does not uninstall properly because of installation issue, try:
 
-sudo mv /var/lib/dpkg/info/tb-fan-control* /tmp/
-sudo dpkg --remove --force-remove-reinstreq tb-fan-control
+sudo mv /var/lib/dpkg/info/tb-fan-control* /tmp/ && sudo dpkg --remove --force-remove-reinstreq tb-fan-control
 
 
 ## Configuration
