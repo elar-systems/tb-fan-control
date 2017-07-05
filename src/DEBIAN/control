@@ -1,0 +1,6 @@
+Package: tb-fan-control
+Version: 1.0.0
+Maintainer: Saeid Ghazagh <sghazagh@elar-systems.com.au>
+Architecture: armhf
+Section: misc
+Description: Temperature-based fan control on ASUS Tinker Board

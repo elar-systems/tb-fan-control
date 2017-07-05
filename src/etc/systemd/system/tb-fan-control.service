@@ -1,0 +1,9 @@
+[Unit]
+Description=Temperature-based control of ASUS Tinker Board fan through GPIO port
+
+[Service]
+ExecStart=/usr/sbin/tb-fan-control
+ExecReload=/bin/kill -s HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target

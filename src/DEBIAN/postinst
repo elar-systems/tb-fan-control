@@ -1,0 +1,4 @@
+chmod 644 /etc/systemd/system/tb-fan-control.service
+systemctl daemon-reload > /dev/null 2>&1 || true
+systemctl enable tb-fan-control.service
+systemctl start tb-fan-control.service

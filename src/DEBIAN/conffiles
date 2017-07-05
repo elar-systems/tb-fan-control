@@ -1,0 +1,2 @@
+/etc/tb-fan-control/tb-fan-control.conf
+/etc/systemd/system/tb-fan-control.service

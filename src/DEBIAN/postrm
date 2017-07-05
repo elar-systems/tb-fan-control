@@ -1,0 +1,4 @@
+systemctl disable tb-fan-control.service
+rm /etc/systemd/system/tb-fan-control.service
+systemctl daemon-reload > /dev/null 2>&1 || true
+systemctl reset-failed || true
